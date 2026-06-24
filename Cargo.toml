@@ -1,0 +1,25 @@
+[package]
+name = "dni"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+description = "Validate Spanish DNI and NIE identification numbers. A faithful port of the python-stdnum algorithms. Zero deps, no_std."
+documentation = "https://docs.rs/dni"
+repository = "https://github.com/trananhtung/dni"
+homepage = "https://github.com/trananhtung/dni"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["dni", "nie", "spanish", "identity", "validation"]
+categories = ["algorithms", "no-std"]
+authors = ["trananhtung"]
+exclude = ["/.github", "/.gitignore"]
+
+[dependencies]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
